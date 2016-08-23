@@ -1,9 +1,9 @@
 'use strict';
 
-var React = require('react-native');
+var ReactNative = require('react-native');
 var Promise = require('promise-es6').Promise;
 
-var AsyncStorage = React.AsyncStorage;
+var AsyncStorage = ReactNative.AsyncStorage;
 
 var reactNativeStore = {};
 var dbName = "db_store";
